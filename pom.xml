@@ -20,13 +20,13 @@ Licensed under the terms of the Apache License 2.0. Please see LICENSE file in t
 	<beam.spark.version>2.4.6</beam.spark.version>
         <spark.version>3.0.0</spark.version>
         <beam.scala.binary.version>2.11</beam.scala.binary.version>
-        <kafka.version>2.4.1</kafka.version>
-        <flink.version>1.11.0</flink.version>
-        <storm.version>2.2.0</storm.version>
+        <kafka.version>3.3.1</kafka.version>
+        <flink.version>1.16.0</flink.version>
+        <storm.version>2.4.0</storm.version>
         <scala.binary.version>2.12</scala.binary.version>
         <scala.version>2.12.10</scala.version>
-        <json.version>20180813</json.version>
-        <jedis.version>2.9.0</jedis.version>
+        <json.version>20220924</json.version>
+        <jedis.version>4.3.1</jedis.version>
         <sedis.version>1.2.2</sedis.version>
         <hadoop.client.version>2.8.3</hadoop.client.version>
         <slf4j.version>1.7.25</slf4j.version>
@@ -157,11 +157,11 @@ Licensed under the terms of the Apache License 2.0. Please see LICENSE file in t
 
     <modules>
         <module>streaming-benchmark-common</module>
-        <module>storm-benchmarks</module>
+<!--        <module>storm-benchmarks</module>-->
         <module>flink-benchmarks</module>
-        <module>spark-dstream-benchmarks</module>
-        <module>spark-ss-benchmarks</module>
-        <module>apache-beam-validator</module>
+<!--        <module>spark-dstream-benchmarks</module>-->
+<!--        <module>spark-ss-benchmarks</module>-->
+<!--        <module>apache-beam-validator</module>-->
     </modules>
 
     <build>
